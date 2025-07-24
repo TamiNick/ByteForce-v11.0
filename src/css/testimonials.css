@@ -73,6 +73,7 @@
     .testimonials .list .element {
         margin: 0;
         flex-basis: calc((100% - 24px) / 2);
+        display: flex;
     }
 
     .testimonials .list .element .contain {
