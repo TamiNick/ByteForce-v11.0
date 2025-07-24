@@ -94,12 +94,6 @@
     margin-bottom: 32px;
 }
 
-@media (min-width: 1336px) {
-    .testimonials .list .element .description.second {
-        margin-bottom: 100px;
-    }
-}
-
 .testimonials .list .element .img-container {
     width: 56px;
     height: 56px;
