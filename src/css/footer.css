@@ -41,6 +41,10 @@
     gap: 16px;
 }
 
+.footer-subscrib-form-input-wrp {
+    display: flex;
+}
+
 .footer-subscrib-form-input {
     border-radius: 12px;
     width: 100%;
@@ -196,7 +200,7 @@
     }
 
     .footer-subscrib-form-input {
-        /* width: 546px; */
+        width: 546px; 
         flex: 1;
     }
 
