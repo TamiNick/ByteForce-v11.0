@@ -81,7 +81,7 @@ h3 {
     align-items: center;
 }
 
-picture img {
+.img-container img {
     max-width: 343px;
     height: auto;
     display: block;
@@ -200,11 +200,11 @@ picture img {
         max-width: 704px;
     }
 
-    picture {
+    .img-container {
         width: 100%;
     }
 
-    picture img {
+    .img-container img {
         width: 100%;
         border-radius: 16px;
         margin-bottom: 24px;
@@ -212,15 +212,11 @@ picture img {
         margin-bottom: 16px;
     }
 
-    picture,
-    picture img {
+    .img-container,
+    .img-container img {
         display: block;
         width: 100vw;
         max-width: 100%;
-    }
-
-    .last-li-picture img {
-        height: 280px;
     }
 
     .discover-classes-names {
@@ -290,18 +286,14 @@ picture img {
         width: 421.33px;
     }
 
-    picture img {
+    .img-container img {
         margin-bottom: 32px;
     }
 
-    picture,
-    picture img {
+    .img-container,
+    .img-container img {
         display: block;
         width: auto;
-    }
-
-    .last-li-picture img {
-        height: auto;
     }
 
     .discover-classes-names {
