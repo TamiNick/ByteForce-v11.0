@@ -277,7 +277,7 @@ h3 {
     }
 
     .discover-programs-lst {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         max-width: none;
         width: auto;
     }
