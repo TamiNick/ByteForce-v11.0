@@ -34,6 +34,15 @@ header {
     margin-left: 105px;
 }
 
+.header-links {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: var(--color-scheme-3-text);
+
+}
+
 
 
 .header-join-container {
@@ -43,7 +52,8 @@ header {
 }
 
 .header-link-join,
-.header-link-join-now {
+.header-link-join-now,
+.header-link-join-now-mobil {
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
@@ -58,6 +68,25 @@ background: #c2d9fc;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.header-link-join-now-bottom:focus,
+.header-link-join-now-mobil:focus,
+.header-link-join-now:focus,
+.header-link-join:focus {
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border: 1px solid var(--color-hawkes-blue);
+background-color: transparent;
+}
+
+.header-link-join-now-bottom:hover,
+.header-link-join-now-mobil:hover,
+.header-link-join-now:hover,
+.header-link-join:hover {
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border: 1px solid var(--color-hawkes-blue);
+background-color: transparent;
+
 }
 
 @media screen and (min-width:768px) {
