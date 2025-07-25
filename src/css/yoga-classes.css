@@ -219,6 +219,11 @@ h3 {
         max-width: 100%;
     }
 
+    .discover-programs-lst li:nth-child(3) .img-container img {
+        height: 282px;
+        object-fit: cover;
+    }
+
     .discover-classes-names {
         margin-bottom: 0;
         font-size: 20px;
@@ -294,6 +299,10 @@ h3 {
     .img-container img {
         display: block;
         width: auto;
+    }
+
+    .discover-programs-lst li:nth-child(3) .img-container img {
+        height: auto;
     }
 
     .discover-classes-names {
