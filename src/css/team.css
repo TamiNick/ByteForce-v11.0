@@ -1,5 +1,5 @@
 .team {
-  background-color: var(--color-scheme-3-background);
+  background-color: #f2fafa;
   padding: 64px 0;
 }
 
@@ -35,6 +35,8 @@
 }
 
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
   gap: 48px;
 }
 
