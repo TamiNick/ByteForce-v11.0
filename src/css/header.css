@@ -1,25 +1,28 @@
 header {
     background-color: #f2fafa;
+    min-width: 320px;
+    min-height: 64px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    min-width: 320px;
+    margin: 0 auto;
     max-width: 375px;
-    max-height: 64px;
+    padding: 0 16px;
 }
 
-.container {
-    margin: 0;
-}
 
 .menu-button {
     background-color: transparent;
     border: none;
+    padding-top: 20px;
 }
 
 .header-nav {
     opacity: 0;
+    display: none;
 }
 
 .header-join-now-container {
@@ -27,8 +30,11 @@ header {
 }
 
 .header-logo-container {
-
+    margin-top: 14px;
+    margin-left: 105px;
 }
+
+
 
 .header-join-container {
     position: absolute;
@@ -55,14 +61,18 @@ align-items: center;
 }
 
 @media screen and (min-width:768px) {
-    .header-container {
-    max-width:768px;
-    max-height: 72px;
+    
+.header-container {
+    min-width:768px;
+    min-height: 72px;
+    padding: 0 32px;
+    margin: 0;
 }
 
 .header-logo-container {
     margin-left: 286px;
-    margin-right: 205px;
+    padding-right: 205px;
+    margin-top: 0;
 }
 
 .header-link-join {
@@ -70,6 +80,12 @@ align-items: center;
     width: 105px;
     height: 42px;
 }   
+
+.header-join-now-container {
+  position: absolute;
+  right: 32px;
+  top: 15px;
+}
 
 .header-join-container {
     opacity: 0;
@@ -87,8 +103,56 @@ align-items: center;
     padding: 8px 20px;
 }
 
-
+.menu-button {
+  padding-top: 0px;
+}
 
 
 }
 
+
+@media screen and (min-width:1336px) {
+.header-container {
+    max-width: 1336px;
+    padding: 0 64px;
+    margin: 0;
+}
+
+.header-nav {
+    opacity: 1;
+    display: flex;
+}
+
+.menu-button {
+opacity: 0;
+display: none;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header-logo-container {
+    margin-left: 161px;
+    padding-right: 205px;
+    margin-top: 0;
+}
+
+.header-links {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-scheme-3-text);
+    
+
+}
+
+.current{
+display: block;
+border-bottom: 2px solid var(--opacity-neutral-darkest-50);
+width: 89px;
+
+}
+}
