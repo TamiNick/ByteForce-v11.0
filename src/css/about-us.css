@@ -77,17 +77,10 @@
 .about-us-button-text {
   display: none;
 }
-.about-us-button:hover {
-  background: transparent;
-  border: 1px solid #c2d9fc;
-  display: flex;
-  justify-content: space-evenly;
-}
+.about-us-button:hover,
 .about-us-button:focus {
-  background: transparent;
-  border: 1px solid black;
-  display: flex;
-  justify-content: space-evenly;
+  opacity: 0.5;
+  outline: none;
 }
 
 /* Styles for Tablet devices */
