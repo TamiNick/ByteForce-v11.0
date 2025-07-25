@@ -22,6 +22,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    max-width: 375px;
 }
 
 .mob-nav {
@@ -94,6 +95,11 @@ align-items: center;
 
 
 @media screen and (min-width:768px) {
+.mobile-menu {
+    max-width: 768px;
+}
+
+
 .header-link-join-now-mobil {
     padding: 8px 20px;
     width: 105px;
