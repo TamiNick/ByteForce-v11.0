@@ -68,13 +68,13 @@ background: #c2d9fc;
 display: flex;
 justify-content: center;
 align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-join-now-bottom:focus,
 .header-link-join-now-mobil:focus,
 .header-link-join-now:focus,
 .header-link-join:focus {
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border: 1px solid var(--color-hawkes-blue);
 background-color: transparent;
 }
@@ -83,7 +83,6 @@ background-color: transparent;
 .header-link-join-now-mobil:hover,
 .header-link-join-now:hover,
 .header-link-join:hover {
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border: 1px solid var(--color-hawkes-blue);
 background-color: transparent;
 
