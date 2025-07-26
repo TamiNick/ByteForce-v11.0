@@ -53,14 +53,13 @@
 	height: 48px;
 	font-family: Sarabun;
 	font-weight: 500;
-	font-style: Medium;
+	font-style: normal;
 	font-size: 16px;
 	line-height: 160%;
-	letter-spacing: 0%;
+	letter-spacing: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .btn-join-now {
@@ -160,6 +159,10 @@
 
 	.btn-style {
 		width: 113px;	
+	}
+
+	.btn-learn-more {
+		width: 128px;
 	}
 }
 
