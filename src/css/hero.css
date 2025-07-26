@@ -128,7 +128,8 @@
 	.hero-image {
 		background-image: url(../img/hero-desctop.jpg);
 		height: 684px;
-		width: 1440px;
+		width: 1336px;
+		background-size: cover;
 	}
 
 	.title-one {
