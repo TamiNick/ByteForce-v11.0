@@ -3,12 +3,10 @@
 }
 
 .hero-image {
-	background-image: image-set(url(../img/hero-mobil.jpg) 1x,
-			url(../img/hero-mobil-2x.jpg) 2x);
 	background-image: image-set(
 		url(../img/hero-mobil.jpg) 1x,
-		url(../img/hero-mobil-2x.jpg) 2x),
-		url(../img/hero-mobil.jpg);
+		url(../img/hero-mobil-2x.jpg) 2x,
+		url(../img/hero-mobil.jpg));
 	background-size: cover;
 	background-position: center;
 	height: 301px;
@@ -105,12 +103,10 @@
 @media screen and (min-width: 768px) {
 
 	.hero-image {
-		background-image: image-set(url(../img/hero-tablet.jpg) 1x,
-				url(../img/hero-tablet-2x.jpg) 2x);
 		background-image: image-set(
 			url(../img/hero-tablet.jpg) 1x,
-			url(../img/hero-tablet-2x.jpg) 2x),
-			url(../img/hero-tablet.jpg);
+			url(../img/hero-tablet-2x.jpg) 2x,
+			url(../img/hero-tablet.jpg));
 		height: 359px;
 	}
 
@@ -147,12 +143,10 @@
 @media screen and (min-width: 1336px) {
 
 	.hero-image {
-		background-image: image-set(url(../img/hero-desctop.jpg) 1x,
-				url(../img/hero-desctop-2x.jpg) 2x);
 		background-image: image-set(
 			url(../img/hero-desctop.jpg) 1x,
-			url(../img/hero-desctop-2x.jpg) 2x),
-			url(../img/hero-desctop.jpg);
+			url(../img/hero-desctop-2x.jpg) 2x,
+			url(../img/hero-desctop.jpg));
 		height: 684px;
 		width: 1336px;
 		background-size: cover;
