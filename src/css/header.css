@@ -78,14 +78,14 @@ transition: background-color .3s ease,color .3s ease,opacity .3s ease;
 .header-link-join-now-mobil:focus,
 .header-link-join-now:focus,
 .header-link-join:focus {
-background: var(--color-hawkes-blue);
+background-color: var(--color-hawkes-blue);
 }
 
 .header-link-join-now-bottom:hover,
 .header-link-join-now-mobil:hover,
 .header-link-join-now:hover,
 .header-link-join:hover {
-background: var(--color-hawkes-blue);
+background-color: var(--color-hawkes-blue);
 
 }
 
