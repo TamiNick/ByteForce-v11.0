@@ -1,10 +1,13 @@
 /* Styles for Mobile devices */
+.about-us-container {
+  padding: 64px 16px;
+}
 .about-us {
   background-color: #dfebeb;
+  margin: 0 auto;
 }
 
 .about-us-main {
-  padding-top: 64px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 40px;
@@ -25,13 +28,16 @@
 }
 
 .about-us-numbered-letter {
-  padding-top: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .about-us-numbered-list {
-  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
 }
 
 .about-us-main-list {
@@ -54,43 +60,50 @@
   color: var(--color-scheme-1-text);
 }
 
-.about-us-button {
-  background: #c2d9fc;
-  border: 1px solid var(--color-hawkes-blue);
-  border-radius: 100px;
-  padding: 10px 24px;
-  width: 343px;
-  height: 46px;
-  font-family: var(--font-family);
+.about-us-text-top {
+  width: 100%;
+  background-color: #c2d9fc;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.6;
+  letter-spacing: 0;
   color: #0d0b0a;
-  margin-bottom: 64px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  border: solid 1px #c2d9fc;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
-.about-us-button-te {
+.about-us-text-t {
   display: none;
 }
 
-.about-us-button-text {
-  display: none;
+.about-us-rol {
+  display: flex;
+  width: 100%;
 }
-.about-us-button:hover,
-.about-us-button:focus {
+
+.about-us-text-top:hover,
+.about-us-text-top:focus {
   opacity: 0.5;
   outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .about-us-container {
+    padding: 40px 32px;
+  }
   .about-us {
     background-color: #f2fafa;
   }
 
   .about-us-main {
-    padding-top: 80px;
+    padding-top: 40px;
   }
 
   .about-us-numbered-letter {
@@ -108,24 +121,15 @@
     width: 340px;
   }
 
-  .about-us-button {
+  .about-us-text-top {
     width: 92px;
     height: 46px;
-    cursor: pointer;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-evenly;
+  }
+  .about-us-text-t {
+    display: inline;
   }
 
-  .about-us-button-te {
-    display: block;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
-  }
-
-  .rol {
+  .about-us-rol {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,8 +138,13 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
+  .about-us-container {
+    padding: 112px 64px;
+    box-sizing: content-box;
+  }
+
   .about-us-main {
-    padding-top: 112px;
+    padding: 0;
   }
 
   .about-us-text {
@@ -143,12 +152,14 @@
   }
 
   .about-us-numbered-letter {
-    padding-top: 40px;
-    display: flex;
     flex-wrap: nowrap;
+    max-width: 1312px;
   }
+
   .about-us-numbered-list {
-    gap: 24px;
+    width: 310px;
+    padding: 0;
+    margin: 0;
   }
 
   .about-us-main-list {
@@ -169,22 +180,12 @@
     text-align: center;
     width: 310px;
   }
-  .about-us-button {
-    border-radius: 100px;
+  .about-us-text-top {
     width: 110px;
     height: 46px;
-    margin-bottom: 112px;
-    display: flex;
-    justify-content: space-evenly;
   }
-  .about-us-button-te {
-    display: none;
-  }
-  .about-us-button-text {
-    display: block;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
+
+  .about-us-text-t {
+    display: inline;
   }
 }
