@@ -61,27 +61,34 @@
 }
 
 .about-us-button {
-  background: #c2d9fc;
-  border: 1px solid var(--color-hawkes-blue);
-  border-radius: 100px;
-  padding: 10px 24px;
-  width: 343px;
-  height: 46px;
-  font-family: var(--font-family);
+  width: 100%;
+  background-color: #c2d9fc;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.6;
+  letter-spacing: 0;
   color: #0d0b0a;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  border: solid 1px #c2d9fc;
   transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
 .about-us-button-te {
   display: none;
 }
-
-.about-us-button-text {
+.about-us-button-t {
   display: none;
 }
+
+.rol {
+  display: flex;
+  width: 100%;
+}
+
 .about-us-button:hover,
 .about-us-button:focus {
   opacity: 0.5;
@@ -120,17 +127,12 @@
   .about-us-button {
     width: 92px;
     height: 46px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
   }
-
   .about-us-button-te {
-    display: block;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
+    display: inline;
+  }
+  .about-us-button-text {
+    display: none;
   }
 
   .rol {
@@ -157,11 +159,11 @@
 
   .about-us-numbered-letter {
     flex-wrap: nowrap;
+    max-width: 1312px;
   }
 
   .about-us-numbered-list {
     width: 310px;
-    height: 206px;
     padding: 0;
     margin: 0;
   }
@@ -185,20 +187,13 @@
     width: 310px;
   }
   .about-us-button {
-    border-radius: 100px;
-    width: 110px;
-    height: 46px;
-    display: flex;
-    justify-content: space-between;
   }
+
   .about-us-button-te {
     display: none;
   }
-  .about-us-button-text {
-    display: block;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 160%;
+
+  .about-us-button-t {
+    display: inline;
   }
 }
