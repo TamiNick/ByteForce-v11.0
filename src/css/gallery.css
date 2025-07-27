@@ -13,6 +13,7 @@
     padding: 64px 20px;
 }
 
+
 .container-gallery-title {
     display: flex;
     flex-direction: column;
@@ -64,6 +65,12 @@
         gap: 24px;
         margin-bottom: 48px;
     }
+
+    picture,
+    picture img {
+        display: inline-block;
+
+    }
 }
 
 
@@ -80,6 +87,11 @@
 
     .gallery-item {
         width: calc((100% - 48px) / 3);
+    }
+
+    picture,
+    picture img {
+        margin-bottom: 0;
     }
 
 }
