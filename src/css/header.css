@@ -64,8 +64,7 @@ line-height: 160%;
 color: var(--color-neutral-darkest);
 border: 1px solid #c2d9fc;
 border-radius: 100px;
-padding: 4px 20px;
-width: 74px;
+min-width: 74px;
 height: 34px;
 background: #c2d9fc;
 display: flex;
@@ -92,8 +91,7 @@ opacity: 0.5;
 @media screen and (min-width:768px) {
     
 .header-container {
-    min-width:768px;
-    min-height: 72px;
+    max-width:768px;
     padding: 0 32px;
     margin: 0;
     justify-content: center;
@@ -129,9 +127,8 @@ opacity: 0.5;
 
 .header-link-join-now {
     display: block ruby;
-    width: 105px;
+    min-width: 105px;
     height: 42px;
-    padding: 8px 20px;
 }
 
 .menu-button {
@@ -144,8 +141,7 @@ opacity: 0.5;
 
 @media screen and (min-width:1336px) {
 .header-container {
-    max-width: none;
-    padding: 0 64px;
+    padding: 0 16px;
     margin: 0;
 }
 
@@ -186,7 +182,6 @@ display: none;
 .current{
 display: block;
 border-bottom: 2px solid var(--opacity-neutral-darkest-50);
-width: 89px;
 
 }
 }
