@@ -81,7 +81,7 @@ h3 {
     align-items: center;
 }
 
-.img-container img {
+picture img {
     max-width: 343px;
     height: auto;
     display: block;
@@ -201,7 +201,11 @@ h3 {
         max-width: 704px;
     }
 
-    .img-container {
+    picture {
+        width: 100%;
+    }
+
+    picture img {
         width: 100%;
     }
 
@@ -213,14 +217,15 @@ h3 {
         margin-bottom: 16px;
     }
 
-    .img-container,
-    .img-container img {
+    picture,
+    picture img {
         display: block;
         width: 100vw;
         max-width: 100%;
     }
 
-    .discover-programs-lst li:nth-child(3) .img-container img {
+    .last-li-picture img {
+        height: 280px;
         height: 282px;
         object-fit: cover;
     }
@@ -278,6 +283,7 @@ h3 {
     }
 
     .discover-programs-lst {
+        flex-wrap: wrap;
         flex-wrap: nowrap;
         max-width: none;
         width: auto;
@@ -292,7 +298,12 @@ h3 {
         width: 421.33px;
     }
 
-    .img-container img {
+    picture img {
+        margin-bottom: 32px;
+    }
+
+    picture,
+    picture img {
         margin-bottom: 32px;
     }
 
@@ -302,12 +313,12 @@ h3 {
         width: auto;
     }
 
-    .discover-programs-lst li:nth-child(3) .img-container img {
+    .last-li-picture img {
         height: auto;
     }
+}
 
     .discover-classes-names {
         font-size: 30px;
         margin-bottom: 24px;
     }
-}
