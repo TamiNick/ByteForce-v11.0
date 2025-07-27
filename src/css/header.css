@@ -101,7 +101,6 @@ opacity: 0.5;
 .header-logo-container {
     margin-left: 286px;
     margin-right: 294px;
-    margin-top: 0;
 }
 
 .header-link-join {
@@ -165,7 +164,6 @@ display: none;
 .header-logo-container {
     margin-left: 200px;
     margin-right: 205px;
-    margin-top: 0;
 }
 
 .header-links {
@@ -182,5 +180,9 @@ display: none;
 display: block;
 border-bottom: 2px solid var(--opacity-neutral-darkest-50);
 
+}
+
+.header-nav-list-item {
+    padding-bottom: 24px;
 }
 }
