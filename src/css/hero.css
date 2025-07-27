@@ -3,7 +3,8 @@
 }
 
 .hero-image {
-	background-image: url(../img/hero-mobil.jpg);
+	background-image: image-set(url(../img/hero-mobil.jpg) 1x,
+			url(../img/hero-mobil-2x.jpg) 2x);
 	background-size: cover;
 	background-position: center;
 	height: 301px;
@@ -60,18 +61,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: opacity .3s ease;
 }
 
 .btn-join-now {
 	background-color: rgba(194, 217, 252, 1);
 	border: 1px solid rgba(194, 217, 252, 1);
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-join-now:hover,
 .btn-join-now:focus {
-	background: rgba(13, 11, 10, 0.05);
-	border: 1px solid rgba(255, 255, 255, 1);
+	opacity: 0.5;
 }
 
 .btn-learn-more {
@@ -79,12 +79,11 @@
 		rgba(13, 11, 10, 0.05);
 	border:
 		1px solid rgba(255, 255, 255, 0);
-	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-learn-more:hover,
 .btn-learn-more:focus {
-	border: 1px solid  rgba(134, 133, 132, 1);
+	opacity: 0.5;
 }
 
 @media screen and (min-width: 375px) {
@@ -102,7 +101,8 @@
 @media screen and (min-width: 768px) {
 
 	.hero-image {
-		background-image: url(../img/hero-tablet.jpg);
+		background-image: image-set(url(../img/hero-tablet.jpg) 1x,
+				url(../img/hero-tablet-2x.jpg) 2x);
 		height: 359px;
 	}
 
@@ -139,7 +139,8 @@
 @media screen and (min-width: 1336px) {
 
 	.hero-image {
-		background-image: url(../img/hero-desctop.jpg);
+		background-image: image-set(url(../img/hero-desctop.jpg) 1x,
+				url(../img/hero-desctop-2x.jpg) 2x);
 		height: 684px;
 		width: 1336px;
 		background-size: cover;
@@ -164,23 +165,5 @@
 
 	.btn-learn-more {
 		width: 128px;
-	}
-}
-
-@media screen and (min-resolution: 192dpi) {
-	.hero-image {
-		background-image: url(../img/hero-mobil-2x.jpg);
-	}
-}
-
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
-	.hero-image {
-		background-image: url(../img/hero-tablet-2x.jpg);
-	}
-}
-
-@media screen and (min-resolution: 192dpi) and (min-width: 1336px) {
-	.hero-image {
-		background-image: url(../img/hero-desctop-2x.jpg);
 	}
 }
