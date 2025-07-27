@@ -77,9 +77,6 @@
   transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
-.about-us-text-te {
-  display: none;
-}
 .about-us-text-t {
   display: none;
 }
@@ -128,7 +125,7 @@
     width: 92px;
     height: 46px;
   }
-  .about-us-text-te {
+  .about-us-text-t {
     display: inline;
   }
 
@@ -186,10 +183,6 @@
   .about-us-text-top {
     width: 110px;
     height: 46px;
-  }
-
-  .about-us-text-te {
-    display: none;
   }
 
   .about-us-text-t {
