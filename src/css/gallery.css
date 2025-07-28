@@ -1,6 +1,6 @@
 .gallery {
     background-color: #f2fafa;
-
+    padding: 64px 0;
 }
 
 .gallery-img {
@@ -10,7 +10,7 @@
 }
 
 .gallry-container {
-    padding: 64px 20px;
+    padding: 0 20px;
 }
 
 
