@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/ByteForce-v11.0/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ByteForce-v11.0/assets/index-D-HA6rex.css">
+    <link rel="stylesheet" crossorigin href="/ByteForce-v11.0/assets/index-DJog29Jh.css">
   </head>
   <body>
     <header class="header" id="top">
@@ -781,7 +781,7 @@
             Community support group
           </li>
         </ul>
-        <button type="button" class="pricing-join-button">Join</button>
+        <button type="button" class="pricing-join-button" data-modal-open>Join</button>
       </li>
       <!-- 8 Sessions Package -->
       <li class="pricing-card">
@@ -893,6 +893,49 @@
   </div>
 </section>
 
+<div class="modal-overlay is-open" data-modal>
+    <div class="modal">
+    <button class="modal-close-button" type="button" data-modal-close>
+          <svg class="modal-icon-close" width="32" height="32">
+            <use href="/ByteForce-v11.0/assets/icons-DWL3zclq.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="modal-text-box">
+        <h3 class="modal-text">Join Now!</h3>
+        <p class="modal-first-paragraph">One Session</p>
+        <p class="modal-second-paragraph">$10</p>
+        </div>
+        <form class="modal-form">
+        <div class="modal-form-field">
+            <label class="modal-form-label" for="name">Your Name</label>
+            <div class="modal-input-wrapper">
+              <input class="modal-form-input" name="name" id="name" type="name" placeholder="Placeholder">
+              <p class="text-valid">Succes!</p>
+              <p class="text-invalid">Invalid email, try again</p>
+            </div>
+        </div>
+        <div class="modal-form-row">
+        <div class="modal-form-field">
+            <label class="modal-form-label" for="email">Email</label>
+            <div class="modal-input-wrapper">
+              <input class="modal-form-input" name="email" id="email" type="email" placeholder="Placeholder">
+              <p class="text-valid">Succes!</p>
+              <p class="text-invalid">Invalid email, try again</p>
+            </div>
+        </div>
+        <div class="modal-form-field">
+            <label class="modal-form-label" for="phone">Phone number</label>
+            <div class="modal-input-wrapper">
+              <input class="modal-form-input" name="phone" id="phone" type="phone" placeholder="Placeholder">
+              <p class="text-valid">Succes!</p>
+              <p class="text-invalid">Invalid email, try again</p>
+            </div>
+        </div>
+        </form>
+        
+    </div>
+    <button class="modal-input-button" type="submit">Go to checkout</button>
+</div>
     </main>
 
     <footer class="footer" id="bottom">
