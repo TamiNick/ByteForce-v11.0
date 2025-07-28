@@ -19,8 +19,13 @@ h3 {
     box-sizing: border-box;
 }
 
-.discover-section {
+.yoga-classes {
     background-color: #DFEBEB;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.discover-section {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
@@ -41,7 +46,6 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0;
-    margin-top: 64px;
     margin-bottom: 12px;
 }
 
@@ -75,14 +79,19 @@ h3 {
 }
 
 .discover-programs-lst li {
-    width: 343px;
+    max-width: 343px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-container img {
+.img-container {
+    width: 100%;
     max-width: 343px;
+}
+
+.img-container img {
+    width: 100%;
     height: auto;
     display: block;
     border-radius: 16px;
@@ -94,7 +103,7 @@ h3 {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.4;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
     margin-bottom: 20px;
 }
 
@@ -105,12 +114,6 @@ h3 {
     line-height: 1.6;
     letter-spacing: 0;
 }
-
-.discover-btn-container {
-    display: flex;
-    width: 100%;
-}
-
 
 .discover-btn {
     width: 100%;
@@ -125,7 +128,6 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 100px;
-    margin-bottom: 64px;
     border: solid 1px #C2D9FC;
     transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 
@@ -149,8 +151,15 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-    .discover-section {
+
+    .yoga-classes {
         background-color: #F2FAFA;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .discover-section {
         padding-left: 32px;
         padding-right: 32px;
         gap: 40px;
@@ -161,7 +170,6 @@ h3 {
     }
 
     .discover-info-top-text {
-        margin-top: 40px;
         margin-bottom: 16px;
     }
 
@@ -227,21 +235,17 @@ h3 {
 
     .discover-classes-names {
         margin-bottom: 0;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .discover-span {
         display: none;
     }
 
-    .discover-btn-container {
-        width: auto;
-    }
-
     .discover-btn {
+        width: auto;
         padding-left: 24px;
         padding-right: 24px;
-        margin-bottom: 40px;
         display: flex;
     }
 
@@ -256,13 +260,14 @@ h3 {
 
 @media screen and (min-width: 1336px) {
 
+    .yoga-classes {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
     .discover-section {
         padding-left: 64px;
         padding-right: 64px;
-    }
-
-    .discover-info-top-text {
-        margin-top: 112px;
     }
 
     .discover-info-title {
@@ -305,7 +310,7 @@ h3 {
     }
 
     .discover-classes-names {
-        font-size: 30px;
+        font-size: 36px;
         margin-bottom: 24px;
     }
 }
