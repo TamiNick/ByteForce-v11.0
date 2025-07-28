@@ -56,8 +56,13 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+    .gallery {
+        padding: 40px 0;
+    }
+
     .gallry-container {
-        padding: 40px 32px;
+        padding: 0 32px;
     }
 
     .container-gallery-title {
@@ -76,8 +81,13 @@
 
 @media only screen and (min-width: 1336px) {
 
+    .gallery {
+
+        padding: 112px 0;
+    }
+
     .gallry-container {
-        padding: 112px 64px;
+        padding: 0 64px;
     }
 
     .gallery-text {
