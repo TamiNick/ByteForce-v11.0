@@ -147,8 +147,8 @@ opacity: 0.5;
     opacity: 1;
     display: flex;
     position: absolute;
-    top: 24px;
-    left: 64px;
+    top: 15px;
+    left: 16px;
 }
 
 .menu-button {
@@ -185,4 +185,9 @@ border-bottom: 2px solid var(--opacity-neutral-darkest-50);
 .header-nav-list-item {
     padding-bottom: 24px;
 }
+
+ .header-join-now-container {
+    right: 16px;
+    top: 10px;
+  }
 }
