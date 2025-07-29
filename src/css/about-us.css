@@ -1,10 +1,9 @@
 /* Styles for Mobile devices */
-.about-us-container {
-  padding: 64px 16px;
-}
 .about-us {
   background-color: #dfebeb;
   margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .about-us-main {
@@ -18,7 +17,7 @@
 }
 
 .about-us-text {
-  padding-top: 20px;
+  margin-top: 20px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -39,9 +38,12 @@
   flex-direction: column;
   margin-bottom: 48px;
 }
+.about-us-n {
+  margin-bottom: 0;
+}
 
 .about-us-main-list {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 24px;
@@ -95,15 +97,14 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .about-us-container {
-    padding: 40px 32px;
-  }
   .about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #f2fafa;
   }
 
   .about-us-main {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .about-us-numbered-letter {
@@ -114,7 +115,7 @@
 
   .about-us-numbered-list {
     max-width: calc((100% - 24px) / 2);
-    padding-bottom: 22px;
+    margin-bottom: 22px;
   }
 
   .about-us-text-list {
@@ -138,30 +139,34 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
-  .about-us-container {
-    padding: 112px 64px;
-    box-sizing: content-box;
+  .about-us {
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
 
   .about-us-main {
-    padding: 0;
+    margin: 0;
   }
 
   .about-us-text {
-    padding-top: 24px;
+    margin-top: 24px;
   }
 
   .about-us-numbered-letter {
     flex-wrap: nowrap;
-    max-width: 1312px;
+    justify-content: center;
+    column-gap: normal;
   }
 
   .about-us-numbered-list {
     width: 310px;
     padding: 0;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .about-us-n {
     margin: 0;
   }
-
   .about-us-main-list {
     font-family: var(--second-family);
     font-weight: 400;
@@ -169,7 +174,6 @@
     line-height: 140%;
     letter-spacing: 0.01em;
     text-align: center;
-    width: 310px;
   }
 
   .about-us-text-list {
@@ -178,7 +182,8 @@
     font-size: 16px;
     line-height: 160%;
     text-align: center;
-    width: 310px;
+    max-width: 310px;
+    max-height: fit-content;
   }
   .about-us-text-top {
     width: 110px;
