@@ -19,7 +19,7 @@ header {
     border: none;
     position: absolute;
     top: 20px;
-    left: 16px;
+    left: 32px;
 }
 
 .header-nav {
@@ -87,6 +87,8 @@ opacity: 0.5;
 opacity: 0.5;
 
 }
+
+@media screen and (min)
 
 @media screen and (min-width:768px) {
     
