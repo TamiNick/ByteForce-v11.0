@@ -85,11 +85,6 @@ h3 {
     align-items: center;
 }
 
-.img-container {
-    width: 100%;
-    max-width: 343px;
-}
-
 .img-container img {
     width: 100%;
     height: auto;
@@ -207,10 +202,6 @@ h3 {
         flex-basis: 340px;
         min-width: 340px;
         max-width: 704px;
-    }
-
-    .img-container {
-        width: 100%;
     }
 
     .img-container img {
