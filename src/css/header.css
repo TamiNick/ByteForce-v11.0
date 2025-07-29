@@ -19,7 +19,7 @@ header {
     border: none;
     position: absolute;
     top: 20px;
-    left: 16px;
+    left: 32px;
 }
 
 .header-nav {
@@ -85,6 +85,26 @@ opacity: 0.5;
 .header-link-join-now:hover,
 .header-link-join:hover {
 opacity: 0.5;
+
+}
+
+@media screen and (min-width:320px) {
+.header-logo-container {
+  margin-left: 100px;
+    
+}
+
+.menu-button {
+    left: 16px;
+}
+
+}
+
+@media screen and (min-width:375px) {
+    .header-logo-container {
+  margin-left: 128px;
+    
+}
 
 }
 
@@ -182,9 +202,6 @@ border-bottom: 2px solid var(--opacity-neutral-darkest-50);
 
 }
 
-.header-nav-list-item {
-    padding-bottom: 24px;
-}
 
  .header-join-now-container {
     right: 16px;
