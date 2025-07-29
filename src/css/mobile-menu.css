@@ -84,10 +84,11 @@ background: var(--color-hawkes-blue);
 display: flex;
 justify-content: center;
 align-items: center;
+transition: background-color .3s ease,color .3s ease,opacity .3s ease;
 }
 
 .menu-join-now-bottom {
-    margin-top: 276px;
+    margin-top: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,18 +173,4 @@ align-items: center;
     visibility: hidden;
     pointer-events: none;
 }
-}
-
-.header-link-join-now-bottom:hover,
-.header-link-join-now-mobil:hover,
-.header-link-join-now:hover,
-.header-link-join:hover {
-
-}
-
-.header-link-join-now-bottom:focus,
-.header-link-join-now-mobil:focus,
-.header-link-join-now:focus,
-.header-link-join:focus {
-    
 }
