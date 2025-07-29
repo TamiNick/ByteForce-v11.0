@@ -1,4 +1,4 @@
-})();
+
 (() => {
     const refs = {
       openModalBtn: document.querySelector("[data-modal-third-open]"),
