@@ -84,7 +84,7 @@
 .team-icon {
   display: flex;
   gap: 14px;
-  list-style: 0;
+  list-style: none;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -126,8 +126,6 @@
   }
 
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
   }
