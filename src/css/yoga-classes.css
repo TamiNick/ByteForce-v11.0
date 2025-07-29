@@ -85,10 +85,7 @@ h3 {
     align-items: center;
 }
 
-.img-container {
-    width: 100%;
-    max-width: 343px;
-}
+
 
 .img-container img {
     width: 100%;
@@ -209,9 +206,7 @@ h3 {
         max-width: 704px;
     }
 
-    .img-container {
-        width: 100%;
-    }
+   
 
     .img-container img {
         width: 100%;
