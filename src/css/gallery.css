@@ -1,6 +1,6 @@
 .gallery {
     background-color: #f2fafa;
-
+    padding: 64px 0;
 }
 
 .gallery-img {
@@ -10,7 +10,7 @@
 }
 
 .gallry-container {
-    padding: 64px 20px;
+    padding: 0 20px;
 }
 
 
@@ -56,8 +56,13 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+    .gallery {
+        padding: 40px 0;
+    }
+
     .gallry-container {
-        padding: 40px 32px;
+        padding: 0 32px;
     }
 
     .container-gallery-title {
@@ -76,8 +81,13 @@
 
 @media only screen and (min-width: 1336px) {
 
+    .gallery {
+
+        padding: 112px 0;
+    }
+
     .gallry-container {
-        padding: 112px 64px;
+        padding: 0 64px;
     }
 
     .gallery-text {
