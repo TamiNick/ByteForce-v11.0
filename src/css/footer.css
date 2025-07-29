@@ -22,6 +22,7 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
+    
 }
 
 .footer-logo {
@@ -274,6 +275,7 @@
     }
     .footer-subscrib {
         width: auto;
+        margin-right: 230px;
     }
     .footer-links-title,
     .footer-social-title {
